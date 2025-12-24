@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Wed, 24 Dec 2025 10:00:00 +0000
+Source: freqtop
+Binary: freqtop
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.1.0-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Hesam Nejati <hesam.nejati@gmail.com>
+Changed-By: Hesam Nejati <hesam.nejati@gmail.com>
+Description:
+ freqtop    - ncurses CPU/GPU frequency monitor
+Changes:
+ freqtop (0.1.0-1) unstable; urgency=medium
+ .
+   * Initial release.
+   * CPU frequency monitoring via Linux sysfs.
+   * Optional GPU telemetry (util/temp/power/freq) when available.
+   * Add man page and basic documentation.
+Checksums-Sha1:
+ 3fe31344e79faa3b963b2a64e21d5a060eed073f 79708 freqtop-dbgsym_0.1.0-1_amd64.ddeb
+ e5bb882611a7abaed3e5b1aac303e797522156ac 6540 freqtop_0.1.0-1_amd64.buildinfo
+ fe1741289bc84cebd7ea1baea01fa2f65561cb40 29820 freqtop_0.1.0-1_amd64.deb
+Checksums-Sha256:
+ 058cb5bef3ca2e73c5a256b5d4e4b68b002601ce211f4097d51ae9a73287b3ce 79708 freqtop-dbgsym_0.1.0-1_amd64.ddeb
+ e13f560205fccfebba12bdc9fca64544653f654b9d04c4eb1d2b53d9c7f0fa1b 6540 freqtop_0.1.0-1_amd64.buildinfo
+ 19ee592224bf84a76d574de0cc91c02e0e1354e603780b00e27625119b243191 29820 freqtop_0.1.0-1_amd64.deb
+Files:
+ fea5b71c1d4668952cd4111b90db1329 79708 debug optional freqtop-dbgsym_0.1.0-1_amd64.ddeb
+ 7730d4a1e4f4ce8c71b750a25f9f07df 6540 utils optional freqtop_0.1.0-1_amd64.buildinfo
+ 98b1dc6ea44b3ec68b5490d1200c3710 29820 utils optional freqtop_0.1.0-1_amd64.deb
